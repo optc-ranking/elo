@@ -86,6 +86,17 @@
         var id = ('0000' + n).slice(-4).replace(/(057[54])/, '0$1');
         return 'https://onepiece-treasurecruise.com/wp-content/uploads/sites/2/f' + id + '.png';
     };
+	
+	utils.getThumbnailUrlNew = function (n) {
+		var urlLink;
+		if (n < 1000){
+			urlLink =  "https://onepiece-treasurecruise.com/wp-content/uploads/f0" + n + ".png";
+		}
+		else {
+			urlLink =  "https://onepiece-treasurecruise.com/wp-content/uploads/f" + n + ".png";
+		}
+		return urlLink;
+	};
 
     utils.getThumbnailUrl = function (n) {
         switch (n){

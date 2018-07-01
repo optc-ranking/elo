@@ -1,5 +1,5 @@
 var legends;
-var g_captains;
+var g_sailors;
 var a_id;
 var b_id;
 var keys;
@@ -19,14 +19,14 @@ var wrapLink = [];
 
 var database = firebase.database();
 var ref = database.ref("units");
-ref.orderByChild("g_captain").once("value", gotData, errData);
+ref.orderByChild("g_sailor").once("value", gotData, errData);
 
 function gotData(snapshot){
 	gotData2(snapshot);
 	
 	console.log(legends);
-	g_captains = filter(legends);
-	var max = g_captains.length;
+	g_sailors = filter(legends);
+	var max = g_sailors.length;
 	
 	a = Math.floor(max * Math.random());
 	b = Math.floor(max * Math.random());
@@ -34,8 +34,8 @@ function gotData(snapshot){
 		b = Math.floor(max * Math.random());
 	};
 	
-	a_id = g_captains[a].unit_id;
-	b_id = g_captains[b].unit_id;
+	a_id = g_sailors[a].unit_id;
+	b_id = g_sailors[b].unit_id;
 	
 	lImg.src = Utils.getThumbnailUrlNew(a_id);
 	lImg.onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
@@ -64,7 +64,7 @@ function gotData(snapshot){
 
 		
 	for(x = max - 1; x >= 0; x--){
-		var temp = g_captains[x];rankImg[x] = new Image();
+		var temp = g_sailors[x];rankImg[x] = new Image();
 		rankImg[x].src = Utils.getThumbnailUrlNew(temp.unit_id);
 		
 		wrapper[x] = document.createElement("div");
@@ -76,7 +76,7 @@ function gotData(snapshot){
 	}		
 		
 	for(x = max - 1; x >= 0; x--){
-		var temp = g_captains[x];
+		var temp = g_sailors[x];
 		
 		
 		var btn1 = document.createElement("a");
@@ -97,7 +97,7 @@ function gotData(snapshot){
 		
 		var btn3 = document.createElement("a");
 		btn3.className = "animated zoomIn r3button";
-		btn3.innerHTML = Math.round(10 * temp.g_captain) / 10;
+		btn3.innerHTML = Math.round(10 * temp.g_sailor) / 10;
 		wrapper[x].appendChild(btn3);
 		
 		
@@ -149,8 +149,8 @@ left.onclick = function(){
 	var adj = match(0,legends[winner],legends[loser]);
 	
 	var updates = {};
-	updates[winner + "/g_captain"] = legends[winner].g_captain + adj;
-	updates[loser + "/g_captain"] = legends[loser].g_captain - adj;
+	updates[winner + "/g_sailor"] = legends[winner].g_sailor + adj;
+	updates[loser + "/g_sailor"] = legends[loser].g_sailor - adj;
 	
 	
 	console.log(a_id + legends[winner].name);
@@ -170,8 +170,8 @@ right.onclick = function(){
 	var adj = match(0,legends[winner],legends[loser]);
 	
 	var updates = {};
-	updates[winner + "/g_captain"] = legends[winner].g_captain + adj;
-	updates[loser + "/g_captain"] = legends[loser].g_captain - adj;
+	updates[winner + "/g_sailor"] = legends[winner].g_sailor + adj;
+	updates[loser + "/g_sailor"] = legends[loser].g_sailor - adj;
 	
 	
 	console.log(a_id + legends[winner].name);
