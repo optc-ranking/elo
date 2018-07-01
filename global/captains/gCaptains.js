@@ -61,6 +61,9 @@ function gotData(snapshot){
 		rightImage.appendChild(rImg);
 	};
 
+	
+	left.innerHTML = "Vote" + "<br />" + g_captains[a].name;
+	right.innerHTML = "Vote" + "<br />" + g_captains[b].name;
 
 		
 	for(x = max - 1; x >= 0; x--){
@@ -90,9 +93,10 @@ function gotData(snapshot){
 		
 		
 		var btn2 = document.createElement("a");
+		var place = max - x;
 		btn2.className = "animated zoomIn r2button";
 		btn2.align = "left";
-		btn2.innerHTML = temp.name;
+		btn2.innerHTML = place + " - " + temp.name;
 		wrapper[x].appendChild(btn2);
 		
 		var btn3 = document.createElement("a");

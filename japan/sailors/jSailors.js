@@ -1,5 +1,5 @@
 var legends;
-var g_sailors;
+var j_sailors;
 var a_id;
 var b_id;
 var keys;
@@ -19,14 +19,14 @@ var wrapLink = [];
 
 var database = firebase.database();
 var ref = database.ref("units");
-ref.orderByChild("g_sailor").once("value", gotData, errData);
+ref.orderByChild("j_sailor").once("value", gotData, errData);
 
 function gotData(snapshot){
 	gotData2(snapshot);
 	
 	console.log(legends);
-	g_sailors = filter(legends);
-	var max = g_sailors.length;
+	j_sailors = legends;
+	var max = j_sailors.length;
 	
 	a = Math.floor(max * Math.random());
 	b = Math.floor(max * Math.random());
@@ -34,8 +34,8 @@ function gotData(snapshot){
 		b = Math.floor(max * Math.random());
 	};
 	
-	a_id = g_sailors[a].unit_id;
-	b_id = g_sailors[b].unit_id;
+	a_id = j_sailors[a].unit_id;
+	b_id = j_sailors[b].unit_id;
 	
 	lImg.src = Utils.getThumbnailUrlNew(a_id);
 	lImg.onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
@@ -62,12 +62,12 @@ function gotData(snapshot){
 	};
 
 	
-	left.innerHTML = "Vote" + "<br />" + g_sailors[a].name;
-	right.innerHTML = "Vote" + "<br />" + g_sailors[b].name;
+	left.innerHTML = "Vote" + "<br />" + j_sailors[a].name;
+	right.innerHTML = "Vote" + "<br />" + j_sailors[b].name;
 
 		
 	for(x = max - 1; x >= 0; x--){
-		var temp = g_sailors[x];rankImg[x] = new Image();
+		var temp = j_sailors[x];rankImg[x] = new Image();
 		rankImg[x].src = Utils.getThumbnailUrlNew(temp.unit_id);
 		
 		wrapper[x] = document.createElement("div");
@@ -79,7 +79,7 @@ function gotData(snapshot){
 	}		
 		
 	for(x = max - 1; x >= 0; x--){
-		var temp = g_sailors[x];
+		var temp = j_sailors[x];
 		
 		
 		var btn1 = document.createElement("a");
@@ -101,7 +101,7 @@ function gotData(snapshot){
 		
 		var btn3 = document.createElement("a");
 		btn3.className = "animated zoomIn r3button";
-		btn3.innerHTML = Math.round(10 * temp.g_sailor) / 10;
+		btn3.innerHTML = Math.round(10 * temp.j_sailor) / 10;
 		wrapper[x].appendChild(btn3);
 		
 		
@@ -124,18 +124,6 @@ function find(array, val){
 	return false;
 }
 
-function filter(array){
-	var temp = [];
-	var i = 0;
-	while (array[i] != undefined && array[i] != null){
-		if(array[i].global){
-			temp.push(array[i]);
-		}
-		i++;
-	}
-	return temp;
-}
-
 function gotData2(snapshot){
 	legends = [];
 	snapshot.forEach(function(child) {
@@ -150,11 +138,11 @@ left.onclick = function(){
 	var winner = find(legends, a_id);
 	var loser = find(legends, b_id);
 
-	var adj = match(1,legends[winner],legends[loser]);
+	var adj = match(3,legends[winner],legends[loser]);
 	
 	var updates = {};
-	updates[winner + "/g_sailor"] = legends[winner].g_sailor + adj;
-	updates[loser + "/g_sailor"] = legends[loser].g_sailor - adj;
+	updates[winner + "/j_sailor"] = legends[winner].j_sailor + adj;
+	updates[loser + "/j_sailor"] = legends[loser].j_sailor - adj;
 	
 	
 	console.log(a_id + legends[winner].name);
@@ -171,11 +159,11 @@ right.onclick = function(){
 	var winner = find(legends, b_id);
 	var loser = find(legends, a_id);
 
-	var adj = match(1,legends[winner],legends[loser]);
+	var adj = match(3,legends[winner],legends[loser]);
 	
 	var updates = {};
-	updates[winner + "/g_sailor"] = legends[winner].g_sailor + adj;
-	updates[loser + "/g_sailor"] = legends[loser].g_sailor - adj;
+	updates[winner + "/j_sailor"] = legends[winner].j_sailor + adj;
+	updates[loser + "/j_sailor"] = legends[loser].j_sailor - adj;
 	
 	
 	console.log(a_id + legends[winner].name);
