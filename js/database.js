@@ -1,4 +1,6 @@
 var database;
+var a;
+var b;
 
 function setup(){
 	// Initialize Firebase
@@ -20,16 +22,30 @@ function setup(){
 }
 
 function gotData(data){
-	var units = data.val();
-	var max = scores.length;
+	var listing = selectAll(".listing");
+	for (var i = 0; i < listing.length; i ++) {
+		listing[i].remove();
+	}
 	
-	var a = Math.floor(max * Math.random());
-	var b = Math.floor(max * Math.random());
+	var units = data.val();
+	var max = units.length;
+	
+	/**
+	a = Math.floor(max * Math.random());
+	b = Math.floor(max * Math.random());
 	while (a == b){
 		b = Math.floor(max * Math.random());
 	}
+	**/
 	
-	console.log(units[a].name);
+	for (var i = 0; i < max; i++) {
+		var name = units[i].name;
+		var elo = units[i].g_captain;
+		var li = createElement("li", name + ": " + g_captain);
+		li.class("listing");
+		li.parent("rankingList");
+	}
+	
 }
 
 function errData(err){
