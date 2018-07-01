@@ -25,21 +25,65 @@
 	</script>
 	
 	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-	
-	<script src="../../js/database.js"></script>
 	<script>
-		setup();
-	</script>
+		var config = {
+			apiKey: "AIzaSyAt-JZ5X3ajjfBQsRpX0ZjYwQYc2hh3yRk",
+			authDomain: "optc-elo.firebaseapp.com",
+			databaseURL: "https://optc-elo.firebaseio.com",
+			projectId: "optc-elo",
+			storageBucket: "optc-elo.appspot.com",
+			messagingSenderId: "997356356537"
+		};
+
+		firebase.initializeApp(config);
+
+		var database = firebase.database();
+		var ref = database.ref("units");
+		ref.on('value', gotData, errData);
+
+		function gotData(data){
+			var listing = selectAll(".listing");
+			for (var i = 0; i < listing.length; i ++) {
+				listing[i].remove();
+			}
+
+			var units = data.val();
+			var max = units.length;
+
+			document.getElementById("abc").innerHTML = units[0].name;
+
+		/**
+		a = Math.floor(max * Math.random());
+		b = Math.floor(max * Math.random());
+		while (a == b){
+			b = Math.floor(max * Math.random());
+		}
+
+		for (var i = 0; i < max; i++) {
+			var name = units[i].name;
+			var elo = units[i].g_captain;
+			var li = createElement("li", name + ": " + g_captain);
+			li.class("listing");
+			li.parent("rankingList");
+		}
+
+		**/
+		}
+
+		function errData(err){
+
+		}
+
+
+	    </script>
 	
     </head>
 
     <body>       
     
     
-        <div id="rankingList">
-		<li>
-			"hi"
-		</li>
+        <div>
+		<h1><span id="abc"></span></h1>
         </div>
 	    
 	<!--
