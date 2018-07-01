@@ -31,6 +31,7 @@ function gotData(data){
 	var max = units.length;
 	
 	var li = createElement("li", units[0].name());
+	li.parent("rankingList");
 	
 	/**
 	a = Math.floor(max * Math.random());
