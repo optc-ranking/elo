@@ -30,13 +30,14 @@ function gotData(data){
 	var units = data.val();
 	var max = units.length;
 	
+	var li = createElement("li", units[0].name());
+	
 	/**
 	a = Math.floor(max * Math.random());
 	b = Math.floor(max * Math.random());
 	while (a == b){
 		b = Math.floor(max * Math.random());
 	}
-	**/
 	
 	for (var i = 0; i < max; i++) {
 		var name = units[i].name;
@@ -46,6 +47,7 @@ function gotData(data){
 		li.parent("rankingList");
 	}
 	
+	**/
 }
 
 function errData(err){
