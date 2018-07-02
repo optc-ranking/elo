@@ -10,8 +10,13 @@
         <script src="../../optc-db.github.io/common/js/utils.js"></script>
         <script src="../../optc-db.github.io/common/js/nonSuspicious.js"></script>
 	
-	    
-        <meta name="viewport" content="initial-scale=device-width/550, user-scalable=no, width=550">
+	    <script>
+			function zoom(){
+				var init.scale = Math.min(0.5, device-width/500);
+				document.getElementById("init.scale").value = init.scale;
+			};
+		</script>
+        <meta name="viewport" content="initial-scale=init.scale, user-scalable=no, width=550">
         <meta name="author" content="FateOfMuffins">
 	    
 	<!-- Google Analytics -->
