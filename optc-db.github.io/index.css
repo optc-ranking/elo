@@ -178,6 +178,19 @@ body {
     font-weight: bold;
 }
 
+
+.button2 {
+    display: block;
+    width: 400px;
+    padding: 15px 0 15px 0;
+    margin: 5px auto;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 .button:first-child {
     border-radius: 5px 5px 0 0;
 }
