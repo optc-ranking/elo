@@ -2,10 +2,12 @@ var legends;
 var g_captains;
 var a_id;
 var b_id;
+var max;
 var keys;
 
 var left = document.getElementById("left");
 var right = document.getElementById("right");
+var skip = document.getElementById("skip");
 
 var lImg = new Image();
 var leftImage = document.getElementById("leftImage");
@@ -25,45 +27,9 @@ function gotData(snapshot){
 	gotData2(snapshot);
 	
 	g_captains = filter(legends);
-	var max = g_captains.length;
+	max = g_captains.length;
 	
-	a = Math.floor(max * Math.random());
-	b = Math.floor(max * Math.random());
-	while (a == b){
-		b = Math.floor(max * Math.random());
-	};
-	
-	a_id = g_captains[a].unit_id;
-	b_id = g_captains[b].unit_id;
-	
-	lImg.src = Utils.getThumbnailUrlNew(a_id);
-	lImg.onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
-	
-	rImg.src = Utils.getThumbnailUrlNew(b_id);
-	rImg.onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
-	
-	
-	
-	leftImage.onclick = function(){
-		window.open("https://optc-db.github.io/characters/#/view/" + a_id);
-	}
-
-	lImg.onload = function() {
-		leftImage.appendChild(lImg);
-	};
-
-	rightImage.onclick = function(){
-		window.open("https://optc-db.github.io/characters/#/view/" + b_id);
-	}
-
-	rImg.onload = function() {
-		rightImage.appendChild(rImg);
-	};
-
-	
-	left.innerHTML = "Vote" + "<br />" + g_captains[a].name;
-	right.innerHTML = "Vote" + "<br />" + g_captains[b].name;
-
+	generatePair();
 		
 	for(x = max - 1; x >= 0; x--){
 		var temp = g_captains[x];rankImg[x] = new Image();
@@ -111,6 +77,45 @@ function gotData(snapshot){
 		
 		rankImage.appendChild(wrapper[x]);
 	}
+}
+
+function generatePair(){
+	var a = Math.floor(max * Math.random());
+	var b = Math.floor(max * Math.random());
+	while (a == b){
+		b = Math.floor(max * Math.random());
+	};
+	
+	a_id = g_captains[a].unit_id;
+	b_id = g_captains[b].unit_id;
+	
+	lImg.src = Utils.getThumbnailUrlNew(a_id);
+	lImg.onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
+	
+	rImg.src = Utils.getThumbnailUrlNew(b_id);
+	rImg.onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
+	
+	
+	
+	leftImage.onclick = function(){
+		window.open("https://optc-db.github.io/characters/#/view/" + a_id);
+	}
+
+	lImg.onload = function() {
+		leftImage.appendChild(lImg);
+	};
+
+	rightImage.onclick = function(){
+		window.open("https://optc-db.github.io/characters/#/view/" + b_id);
+	}
+
+	rImg.onload = function() {
+		rightImage.appendChild(rImg);
+	};
+
+	
+	left.innerHTML = "Vote" + "<br />" + g_captains[a].name;
+	right.innerHTML = "Vote" + "<br />" + g_captains[b].name;
 }
 
 function errData(err){
@@ -183,4 +188,8 @@ right.onclick = function(){
 	ref.update(updates);
 	
 	window.location.reload(true);
+}
+
+skip.onclick = function(){
+	generatePair();
 }
