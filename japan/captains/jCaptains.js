@@ -26,7 +26,7 @@ ref.orderByChild("j_captain").once("value", gotData, errData);
 function gotData(snapshot){
 	gotData2(snapshot);
 	
-	j_captains = filter(legends);
+	j_captains = legends;
 	max = j_captains.length;
 	
 	generatePair();
