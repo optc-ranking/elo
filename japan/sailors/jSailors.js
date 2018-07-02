@@ -73,7 +73,6 @@ function gotData(snapshot){
 		wrapper[x] = document.createElement("div");
 		wrapper[x].id = "https://optc-db.github.io/characters/#/view/" + temp.unit_id;
 		wrapper[x].className = "ranking";
-		wrapper[x].addEventListener("click", function(){window.open(this.id)}, false);
 		
 		rankImage.appendChild(wrapper[x]);
 	}		
@@ -86,6 +85,8 @@ function gotData(snapshot){
 		btn1.className = "animated zoomIn r1button";	
 		rankImg[x].onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
 		btn1.appendChild(rankImg[x]);
+		btn1.id = wrapper[x].id;
+		btn1.addEventListener("click", function(){window.open(this.id)}, false);
 		wrapper[x].appendChild(btn1);
 		
 		
@@ -97,11 +98,15 @@ function gotData(snapshot){
 		btn2.className = "animated zoomIn r2button";
 		btn2.align = "left";
 		btn2.innerHTML = place + " - " + temp.name;
+		btn2.id = wrapper[x].id;
+		btn2.addEventListener("click", function(){window.open(this.id)}, false);
 		wrapper[x].appendChild(btn2);
 		
 		var btn3 = document.createElement("a");
 		btn3.className = "animated zoomIn r3button";
 		btn3.innerHTML = Math.round(10 * temp.j_sailor) / 10;
+		btn3.id = wrapper[x].id;
+		btn3.addEventListener("click", function(){window.open(this.id)}, false);
 		wrapper[x].appendChild(btn3);
 		
 		
