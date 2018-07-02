@@ -24,7 +24,6 @@ ref.orderByChild("j_sailor").once("value", gotData, errData);
 function gotData(snapshot){
 	gotData2(snapshot);
 	
-	console.log(legends);
 	j_sailors = legends;
 	var max = j_sailors.length;
 	
@@ -149,9 +148,6 @@ left.onclick = function(){
 	updates[winner + "/j_sailor"] = legends[winner].j_sailor + adj;
 	updates[loser + "/j_sailor"] = legends[loser].j_sailor - adj;
 	
-	
-	console.log(a_id + legends[winner].name);
-	console.log(b_id + legends[loser].name);
 	ref.update(updates);
 	
 	window.location.reload(true);
@@ -170,9 +166,6 @@ right.onclick = function(){
 	updates[winner + "/j_sailor"] = legends[winner].j_sailor + adj;
 	updates[loser + "/j_sailor"] = legends[loser].j_sailor - adj;
 	
-	
-	console.log(a_id + legends[winner].name);
-	console.log(b_id + legends[loser].name);
 	ref.update(updates);
 	
 	window.location.reload(true);

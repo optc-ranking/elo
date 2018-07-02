@@ -1,3 +1,8 @@
+@-ms-viewport{
+	initial-scale: device-width/550;
+	width: 550;
+}
+
 
 @font-face {
 	font-family: 'icomoon';

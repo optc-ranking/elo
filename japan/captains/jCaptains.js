@@ -24,7 +24,6 @@ ref.orderByChild("j_captain").once("value", gotData, errData);
 function gotData(snapshot){
 	gotData2(snapshot);
 	
-	console.log(legends);
 	j_captains = legends;
 	var max = j_captains.length;
 	
@@ -150,8 +149,6 @@ left.onclick = function(){
 	updates[loser + "/j_captain"] = legends[loser].j_captain - adj;
 	
 	
-	console.log(a_id + legends[winner].name);
-	console.log(b_id + legends[loser].name);
 	ref.update(updates);
 	
 	window.location.reload(true);
@@ -170,9 +167,6 @@ right.onclick = function(){
 	updates[winner + "/j_captain"] = legends[winner].j_captain + adj;
 	updates[loser + "/j_captain"] = legends[loser].j_captain - adj;
 	
-	
-	console.log(a_id + legends[winner].name);
-	console.log(b_id + legends[loser].name);
 	ref.update(updates);
 	
 	window.location.reload(true);
