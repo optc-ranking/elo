@@ -55,9 +55,6 @@ function gotData(snapshot){
 		wrapper[x].appendChild(btn1);
 		
 		
-		
-		
-		
 		var btn2 = document.createElement("a");
 		var place = max - x;
 		btn2.className = "animated zoomIn r2button";
@@ -66,6 +63,7 @@ function gotData(snapshot){
 		btn2.id = wrapper[x].id;
 		btn2.addEventListener("click", function(){window.open(this.id)}, false);
 		wrapper[x].appendChild(btn2);
+		
 		
 		var btn3 = document.createElement("a");
 		btn3.className = "animated zoomIn r3button";

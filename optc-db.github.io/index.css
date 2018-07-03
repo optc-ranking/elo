@@ -130,7 +130,6 @@ body {
 	vertical-align: middle;
 }
 
-
 .r1button{
 	display: inline-block;
 	max-width: 50px;
@@ -163,8 +162,7 @@ body {
 	padding-left: 15px;
 	word-wrap: break-word;
 	position: relative;
-	top: 50%;
-	transform: translateY(15%); 
+	padding-top: 7px;
 }
 
 .r3button{
@@ -178,8 +176,7 @@ body {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-	line-height: 45px;
-	vertical-align: top;
+	padding-top: 15px;
 	text-align: right;
 }
 
