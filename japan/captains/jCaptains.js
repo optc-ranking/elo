@@ -81,6 +81,12 @@ function gotData(snapshot){
 
 function generatePair(){
 	var a = Math.floor(max * Math.random());
+	
+	// Increases the rate of newly added units - will need to be manually adjusted for Global
+	if (Math.random() < 3.0/max){
+		a = find(j_captains, 1543);
+	}
+	
 	var b = Math.floor(max * Math.random());
 	while (a == b){
 		b = Math.floor(max * Math.random());
