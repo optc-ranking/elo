@@ -23,5 +23,5 @@ function match(type, winner, loser, mult){
 		ea = 1.0 / (1.0 + Math.pow(10.0, (loser.j_sailor - winner.j_sailor) / 400.0));
 	}
 	
-	return  * (1.0 - ea);
+	return k * (1.0 - ea);
 }
