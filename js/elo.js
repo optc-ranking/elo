@@ -1,5 +1,10 @@
-function match(type, winner, loser){
+function match(type, winner, loser, mult){
 	var ea;
+	var k = 10;
+	
+	if (mult){
+		k = 20;
+	}
 	
 	//Global captain
 	if (type == 0){
@@ -18,5 +23,5 @@ function match(type, winner, loser){
 		ea = 1.0 / (1.0 + Math.pow(10.0, (loser.j_sailor - winner.j_sailor) / 400.0));
 	}
 	
-	return 10 * (1.0 - ea);
+	return  * (1.0 - ea);
 }
