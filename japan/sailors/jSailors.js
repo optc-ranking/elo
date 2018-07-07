@@ -22,7 +22,7 @@ var wrapLink = [];
 // Only allows 5 skips per login
 var skipCounter = 5;
 
-firebase.auth().onAuthStateChanged(function(user) {
+var authStop = firebase.auth().onAuthStateChanged(function(user) {
 	if (user) {
 		if (user.isAnonymous()) {
 			firebase.auth().signOut();
@@ -34,6 +34,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 		});
 	}
 });
+authStop();
 
 var database = firebase.database();
 var ref = database.ref("units");
@@ -175,8 +176,7 @@ function gotData2(snapshot){
 }
 
 left.onclick = function(){	
-
-	firebase.auth().onAuthStateChanged(function(user) {
+	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
 			database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
 			legends.sort(function(a, b){return a.unit_id - b.unit_id});
@@ -197,11 +197,14 @@ left.onclick = function(){
 			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
 		}
 	});
+	
+	authS();
+	
 	window.location.reload(true);
 }
 
 right.onclick = function(){
-	firebase.auth().onAuthStateChanged(function(user) {
+	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
 			database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
 			legends.sort(function(a, b){return a.unit_id - b.unit_id});
@@ -221,6 +224,7 @@ right.onclick = function(){
 		}
 	});
 	
+	authS();
 	
 	window.location.reload(true);
 }
