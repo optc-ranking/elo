@@ -1,0 +1,343 @@
+{
+	"raids": [{
+			"unit_id": 227,
+			"name": "Hawk Eyes Mihawk",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 249,
+			"name": "Tony Tony Chopper Post-Rampage",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 306,
+			"name": "Garp the Fist",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 353,
+			"name": "Zephyr, NEO Marines Leader",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 390,
+			"name": "Emporio Ivankov Queen of Kamabakka Queendom",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 418,
+			"name": "Donquixote Doflamingo, Warlord of the Sea",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 447,
+			"name": "Blackbeard",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 516,
+			"name": "Heracles-un, Hero of the Forest",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 575,
+			"name": "Aokiji, Ice Human",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 603,
+			"name": "Eneru, Lightning Incarnate, 200,000,000 Volt Amaru",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 654,
+			"name": "Duval, Rosy Life Riders Leader",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 795,
+			"name": "Nightmare Luffy Warrior of Hope",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 836,
+			"name": "Tyrant Bartholomew Kuma, Government Human Weapon",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 865,
+			"name": "Empress Boa Hancock, Kuja Pirates Captain",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 933,
+			"name": "Pica, Donquixote Pirates",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 978,
+			"name": "Kizaru, Light Human",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 1047,
+			"name": "Sabo, Revolutionary Army Chief of Staff",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 1108,
+			"name": "Shiki the Golden Lion, Golden Lion Pirates",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1163,
+			"name": "Gild Tesoro, Gold Ship Casino King",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1298,
+			"name": "Akainu, Magma Man",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1374,
+			"name": "Magellan, Chief Warden of Impel Down",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1432,
+			"name": "Iron Pirate General Franky",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1518,
+			"name": "Bellamy the Hyena, Bullet of Dressrosa",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1595,
+			"name": "Gravity Blade Fujitora, Navy HQ Greatest Military Power",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1623,
+			"name": "[Neo] Donquixote Doflamingo, Warlord of the Sea",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1647,
+			"name": "[Neo] Pica, Donquixote Pirates",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1669,
+			"name": "[Neo] Aokiji, Ice Human",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1680,
+			"name": "[Neo] Hawk Eyes Mihawk",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1696,
+			"name": "Demon Bamboo Vergo, Donquixote Family Senior Executive",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1727,
+			"name": "[Neo] Sabo, Revolutionary Army Chief of Staff",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1739,
+			"name": "[Neo] Bellamy the Hyena, Bullet of Dressrosa",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1772,
+			"name": "[Neo] Tyrant Bartholomew Kuma, Government Human Weapon",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1780,
+			"name": "[Neo] Kizaru, Light Human",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1815,
+			"name": "Vinsmoke Sanji, Germa Kingdom",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1826,
+			"name": "[Neo] Akainu, Magma Man",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1830,
+			"name": "Master Caesar, Ruler of the Atmosphere",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1879,
+			"name": "Bartolomeo the Cannibal, Barto Club Pirates Captain",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1924,
+			"name": "Dark King Rayleigh, First Mate of the Roger Pirates",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1930,
+			"name": "[Neo] Eneru, Lightning Incarnate, 200,000,000 Volt Amaru",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1943,
+			"name": "Senor Pink, A Man's Battle",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2015,
+			"name": "Rob Lucci, The Weapon that Displays 'Dark Justice'",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2033,
+			"name": "Monkey D. Luffy, Gear 4 - Tankman",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2070,
+			"name": "[Neo] Empress Boa Hancock, Kuja Pirates Captain",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2097,
+			"name": "Roronoa Zoro, The Swordsman Slicing through the New World",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2158,
+			"name": "Thousand Arm Cracker",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2201,
+			"name": "[V2] Donquixote Doflamingo, Plot to Destroy the World",
+			"global": true,
+			"japan": false,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		}
+	]
+}

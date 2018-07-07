@@ -1,0 +1,83 @@
+{
+	"treasure maps": [{
+			"unit_id": 1808,
+			"name": "Hawk Eyes Mihawk, The Strongest Swordsman Standing on Top of the World",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 1853,
+			"name": "Whitebeard, Whitebeard Pirates Captain",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 1889,
+			"name": "Cavendish, White Christmas Knight",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 1916,
+			"name": "Monkey D. Luffy: Gear 4, The Natural Enemy of God",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 1941,
+			"name": "Fire Fist Ace, Spiritual Flames",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 1972,
+			"name": "Sabo, Sweet Dignity",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 2000,
+			"name": "Sanji & Zoro, Strawhats Pirates Unmatched Duo",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 2064,
+			"name": "Kizaru, Raging Waves of Light",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 2109,
+			"name": "Charlotte Linlin, The Great Pirate 'Big Mom'",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 2137,
+			"name": "Sir Crocodile, The Pirate that Controls Drought",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		}
+	]
+}

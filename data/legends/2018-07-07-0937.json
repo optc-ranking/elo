@@ -1,0 +1,611 @@
+{
+  "units" : [ {
+    "g_captain" : 1088.514775923975,
+    "g_sailor" : 1286.6832243975537,
+    "global" : true,
+    "j_captain" : 1002.9854940193312,
+    "j_sailor" : 1197.202542443577,
+    "name" : "[6*] Whitebeard",
+    "unit_id" : 261
+  }, {
+    "g_captain" : 1103.3822051769969,
+    "g_sailor" : 1127.4466688747116,
+    "global" : true,
+    "j_captain" : 1005.4466563340646,
+    "j_sailor" : 1067.9150754711386,
+    "name" : "[6*] Dark King Rayleigh",
+    "unit_id" : 367
+  }, {
+    "g_captain" : 938.9312109659095,
+    "g_sailor" : 1247.2334031246992,
+    "global" : true,
+    "j_captain" : 854.786759233173,
+    "j_sailor" : 1157.2666884254772,
+    "name" : "[6*] Boa Hancock Warlord of the Sea",
+    "unit_id" : 416
+  }, {
+    "g_captain" : 885.9999531828835,
+    "g_sailor" : 1059.3901839318803,
+    "global" : true,
+    "j_captain" : 807.0995904690405,
+    "j_sailor" : 1058.252632018086,
+    "name" : "[6*] Sengoku the Buddha",
+    "unit_id" : 459
+  }, {
+    "g_captain" : 1082.4850562386105,
+    "g_sailor" : 1126.3458789595575,
+    "global" : true,
+    "j_captain" : 844.2428930639611,
+    "j_sailor" : 1112.9041542689233,
+    "name" : "[6*] Shanks, Black Clad Emperor",
+    "unit_id" : 530
+  }, {
+    "g_captain" : 1242.193852343076,
+    "g_sailor" : 1218.4780190014017,
+    "global" : true,
+    "j_captain" : 1125.2064430497342,
+    "j_sailor" : 1124.9610348726014,
+    "name" : "[6*] Portgas D. Ace, Black Clad Division Commander",
+    "unit_id" : 562
+  }, {
+    "g_captain" : 1137.8142434276683,
+    "g_sailor" : 1034.9470136365405,
+    "global" : true,
+    "j_captain" : 1085.319758664957,
+    "j_sailor" : 985.8039319140042,
+    "name" : "[6*] Monkey D.Luffy, Voyage Dream:  Pirate King",
+    "unit_id" : 578
+  }, {
+    "g_captain" : 1111.2138528906921,
+    "g_sailor" : 1649.8712370316825,
+    "global" : true,
+    "j_captain" : 1129.0264308626129,
+    "j_sailor" : 1518.0999810588223,
+    "name" : "[6*] Marco the Phoenix Whitebeard 1st Div. Commander",
+    "unit_id" : 649
+  }, {
+    "g_captain" : 1139.5421259464158,
+    "g_sailor" : 1412.526674094956,
+    "global" : true,
+    "j_captain" : 1138.5399687619,
+    "j_sailor" : 1270.2472682872658,
+    "name" : "[6*] Sabo the Revolutionary",
+    "unit_id" : 669
+  }, {
+    "g_captain" : 1284.096847424389,
+    "g_sailor" : 1487.0820780755314,
+    "global" : true,
+    "j_captain" : 1201.290714296798,
+    "j_sailor" : 1484.610184266882,
+    "name" : "[6*] Hawk Eyes Mihawk, World's Strongest Swordsman",
+    "unit_id" : 718
+  }, {
+    "g_captain" : 1306.9225693669669,
+    "g_sailor" : 1280.7575557361588,
+    "global" : true,
+    "j_captain" : 1203.508340684653,
+    "j_sailor" : 1246.27333760119,
+    "name" : "[6*] Sir Crocodile:  Logia, Ex-Warlord of the Sea",
+    "unit_id" : 720
+  }, {
+    "g_captain" : 1232.9117762153494,
+    "g_sailor" : 1212.5252233364754,
+    "global" : true,
+    "j_captain" : 1090.371820248342,
+    "j_sailor" : 1219.9982803058974,
+    "name" : "[6*] Rob Lucci, CP9's Strongest",
+    "unit_id" : 748
+  }, {
+    "g_captain" : 1239.0701650984995,
+    "g_sailor" : 1590.557478824442,
+    "global" : true,
+    "j_captain" : 1227.1034985403248,
+    "j_sailor" : 1569.0674073398568,
+    "name" : "[6*] Heavenly Yaksha Donquixote Doflamingo",
+    "unit_id" : 870
+  }, {
+    "g_captain" : 1201.2239134047568,
+    "g_sailor" : 1164.219869496231,
+    "global" : true,
+    "j_captain" : 1115.9404158414352,
+    "j_sailor" : 1142.5709294565306,
+    "name" : "[6*] Knight of the Sea Jinbe, Warlord of the Sea",
+    "unit_id" : 935
+  }, {
+    "g_captain" : 1004.648463245932,
+    "g_sailor" : 1307.3452378690813,
+    "global" : true,
+    "j_captain" : 996.5518299618669,
+    "j_sailor" : 1281.7679642095595,
+    "name" : "[6*] Donquixote Rosinante",
+    "unit_id" : 1001
+  }, {
+    "g_captain" : 1166.3229584355056,
+    "g_sailor" : 1363.144278717356,
+    "global" : true,
+    "j_captain" : 1115.9399537630823,
+    "j_sailor" : 1263.8162112303762,
+    "name" : "[6*] Man-Eating Bartolomeo",
+    "unit_id" : 1035
+  }, {
+    "g_captain" : 1295.104779877679,
+    "g_sailor" : 1448.1789849184636,
+    "global" : true,
+    "j_captain" : 1259.9341251259889,
+    "j_sailor" : 1292.5764797033355,
+    "name" : "[6*] Trafalgar Law Warlord of the Sea",
+    "unit_id" : 1045
+  }, {
+    "g_captain" : 1421.3560301599846,
+    "g_sailor" : 1492.4005048356278,
+    "global" : true,
+    "j_captain" : 1366.869342052548,
+    "j_sailor" : 1401.120967572442,
+    "name" : "[6*] Issho",
+    "unit_id" : 1085
+  }, {
+    "g_captain" : 1228.7591190420678,
+    "g_sailor" : 1310.9149531398855,
+    "global" : true,
+    "j_captain" : 1158.935880617397,
+    "j_sailor" : 1165.1214480137853,
+    "name" : "[6*] White Knight Cavendish",
+    "unit_id" : 1123
+  }, {
+    "g_captain" : 1291.6070710413085,
+    "g_sailor" : 1369.2267006490183,
+    "global" : true,
+    "j_captain" : 1180.4915483112811,
+    "j_sailor" : 1322.274111647021,
+    "name" : "[6*] Kuzan",
+    "unit_id" : 1192
+  }, {
+    "g_captain" : 1223.053852414615,
+    "g_sailor" : 1467.9397672598689,
+    "global" : true,
+    "j_captain" : 1127.534971300099,
+    "j_sailor" : 1285.6628922111993,
+    "name" : "[6*] Borsalino",
+    "unit_id" : 1240
+  }, {
+    "g_captain" : 1571.7438067938722,
+    "g_sailor" : 1274.4421619570596,
+    "global" : true,
+    "j_captain" : 1518.4746556131581,
+    "j_sailor" : 1298.9524484253088,
+    "name" : "[6*] Blackbeard, Captain of the Blackbeard Pirates",
+    "unit_id" : 1268
+  }, {
+    "g_captain" : 1530.7546046162913,
+    "g_sailor" : 1270.9001212922874,
+    "global" : true,
+    "j_captain" : 1514.377459447224,
+    "j_sailor" : 1328.5219519523998,
+    "name" : "[6*] Sakazuki",
+    "unit_id" : 1314
+  }, {
+    "g_captain" : 1440.3843231508629,
+    "g_sailor" : 1350.544570775347,
+    "global" : true,
+    "j_captain" : 1350.6168436310106,
+    "j_sailor" : 1313.0251181831716,
+    "name" : "[6*] Roronoa Zoro, Reunion of the Straw Hat Pirates",
+    "unit_id" : 1362
+  }, {
+    "g_captain" : 1151.0995641069062,
+    "g_sailor" : 998.5906127588416,
+    "global" : true,
+    "j_captain" : 1018.8173614603207,
+    "j_sailor" : 1071.3902125445168,
+    "name" : "[6*] Captain Buggy",
+    "unit_id" : 1391
+  }, {
+    "g_captain" : 1580.3712255255039,
+    "g_sailor" : 1075.015978065578,
+    "global" : true,
+    "j_captain" : 1482.7834891805026,
+    "j_sailor" : 1239.4065156919435,
+    "name" : "[6*] Monkey D. Luffy, Reunion of the Straw Hat Pirates",
+    "unit_id" : 1404
+  }, {
+    "g_captain" : 1340.2351223433334,
+    "g_sailor" : 1390.853107552293,
+    "global" : true,
+    "j_captain" : 1219.723092789553,
+    "j_sailor" : 1360.4493510948218,
+    "name" : "[6+] Whitebeard:  Four Emperors",
+    "unit_id" : 1413
+  }, {
+    "g_captain" : 1297.7323195257543,
+    "g_sailor" : 1340.0451405564256,
+    "global" : true,
+    "j_captain" : 1303.4072605014853,
+    "j_sailor" : 1275.3838442429364,
+    "name" : "[6*] Hody Jones, the Ghost of Fishman District",
+    "unit_id" : 1434
+  }, {
+    "g_captain" : 1050.805883416134,
+    "g_sailor" : 1272.2839128326932,
+    "global" : true,
+    "j_captain" : 994.8692754720252,
+    "j_sailor" : 1247.3491091338174,
+    "name" : "[6+] Boa Hancock:  Snake Princess",
+    "unit_id" : 1445
+  }, {
+    "g_captain" : 1420.922343610606,
+    "g_sailor" : 1805.6709289276,
+    "global" : true,
+    "j_captain" : 1593.3289711710852,
+    "j_sailor" : 1810.0130100480685,
+    "name" : "[6*] Shirahoshi-hime, Ryugu Kingdom Princess",
+    "unit_id" : 1473
+  }, {
+    "g_captain" : 1414.152350257533,
+    "g_sailor" : 1624.6619675412883,
+    "global" : true,
+    "j_captain" : 1350.8873871691173,
+    "j_sailor" : 1474.5888962927845,
+    "name" : "[6+] Sabo, True Power of the Mera Mera no Mi",
+    "unit_id" : 1492
+  }, {
+    "g_captain" : 1081.050612609732,
+    "g_sailor" : 1626.287214778105,
+    "global" : true,
+    "j_captain" : 1001.8285372359438,
+    "j_sailor" : 1519.6951677344648,
+    "name" : "[6*] God Usopp",
+    "unit_id" : 1532
+  }, {
+    "g_captain" : 1115.3872324044414,
+    "g_sailor" : 1569.2619460246606,
+    "global" : true,
+    "j_captain" : 1117.2974846241025,
+    "j_sailor" : 1470.394611421294,
+    "name" : "[6+] Captain Usopp, Usopp's Great Manly Adventure ~Chapter II~",
+    "unit_id" : 1543
+  }, {
+    "g_captain" : 1407.7540478934243,
+    "g_sailor" : 1435.5993230799936,
+    "global" : true,
+    "j_captain" : 1388.4025001592465,
+    "j_sailor" : 1387.3996235445788,
+    "name" : "[6*] King of the Day Inuarashi",
+    "unit_id" : 1571
+  }, {
+    "g_captain" : 1517.7246114838513,
+    "g_sailor" : 1322.215554637174,
+    "global" : true,
+    "j_captain" : 1406.0860142419,
+    "j_sailor" : 1371.7090855170109,
+    "name" : "[6*] Sanji, Germa Kingdom Prince",
+    "unit_id" : 1588
+  }, {
+    "g_captain" : 1615.9290206447006,
+    "g_sailor" : 1289.758346379511,
+    "global" : true,
+    "j_captain" : 1420.7153881252793,
+    "j_sailor" : 1225.0523948132504,
+    "name" : "[6+] Monkey D. Luffy, Gear 4th - Boundman",
+    "unit_id" : 1593
+  }, {
+    "g_captain" : 1364.998740503601,
+    "g_sailor" : 1362.500994033926,
+    "global" : true,
+    "j_captain" : 1428.731735481684,
+    "j_sailor" : 1444.372522598072,
+    "name" : "[6*] Kami Eneru, Clash of the Great Pirate Era [Fairy Vearth]",
+    "unit_id" : 1610
+  }, {
+    "g_captain" : 1272.4931360081937,
+    "g_sailor" : 1351.772670462012,
+    "global" : true,
+    "j_captain" : 1242.076928279557,
+    "j_sailor" : 1376.9398239663801,
+    "name" : "[6+] Dark King Silvers Rayleigh, Right Hand of the Pirate King",
+    "unit_id" : 1619
+  }, {
+    "g_captain" : 1751.35239987161,
+    "g_sailor" : 1237.8349233531856,
+    "global" : true,
+    "j_captain" : 1663.8692417455272,
+    "j_sailor" : 1157.3869422972298,
+    "name" : "[6*] King of the Night Nekomamushi",
+    "unit_id" : 1652
+  }, {
+    "g_captain" : 1534.7469562203066,
+    "g_sailor" : 1223.9380988784046,
+    "global" : true,
+    "j_captain" : 1409.4017392164935,
+    "j_sailor" : 1234.838764084338,
+    "name" : "[6+] Rob Lucci Life Return, CP9's Strongest",
+    "unit_id" : 1663
+  }, {
+    "g_captain" : 1456.5821402896659,
+    "g_sailor" : 1732.933829978272,
+    "global" : true,
+    "j_captain" : 1374.5631217929777,
+    "j_sailor" : 1600.2658609278947,
+    "name" : "[6*] Magellan, Hell's Ruler",
+    "unit_id" : 1698
+  }, {
+    "g_captain" : 1240.9486783302589,
+    "g_sailor" : 1237.9756800611065,
+    "global" : true,
+    "j_captain" : 1192.0552513162688,
+    "j_sailor" : 1350.3391041805546,
+    "name" : "[6+] Red Hair Shanks, Four Emperors",
+    "unit_id" : 1707
+  }, {
+    "g_captain" : 1643.9074369472091,
+    "g_sailor" : 1349.5596472814075,
+    "global" : true,
+    "j_captain" : 1610.2437879495037,
+    "j_sailor" : 1267.1136151174014,
+    "name" : "[6*] Boa Hancock, Strawhat Luffy's Accomplice",
+    "unit_id" : 1747
+  }, {
+    "g_captain" : 1669.0393591169004,
+    "g_sailor" : 1663.050085813291,
+    "global" : true,
+    "j_captain" : 1554.0194529680116,
+    "j_sailor" : 1495.689773436404,
+    "name" : "[6*] Warlord of the Sea Trafalgar Law, Aim for Joker",
+    "unit_id" : 1751
+  }, {
+    "g_captain" : 1829.032112281802,
+    "g_sailor" : 1553.79517099032,
+    "global" : true,
+    "j_captain" : 1754.7270888522949,
+    "j_sailor" : 1441.9299196368415,
+    "name" : "[6*] Human Beast Lucci, World Government Monster",
+    "unit_id" : 1763
+  }, {
+    "g_captain" : 1565.8608789431148,
+    "g_sailor" : 1662.9189922845321,
+    "global" : true,
+    "j_captain" : 1405.250272444831,
+    "j_sailor" : 1483.664000248647,
+    "name" : "[6+] Kuzan, Former Navy HQ Greatest Military Power",
+    "unit_id" : 1764
+  }, {
+    "g_captain" : 1973.331101470192,
+    "g_sailor" : 1500.1546694262345,
+    "global" : true,
+    "j_captain" : 1901.0973418315573,
+    "j_sailor" : 1549.3435163289219,
+    "name" : "[6*] Lucy, Corrida Colosseum Champion",
+    "unit_id" : 1794
+  }, {
+    "g_captain" : 1406.0295275844608,
+    "g_sailor" : 1376.5445659532395,
+    "global" : true,
+    "j_captain" : 1350.8784282965905,
+    "j_sailor" : 1284.317212316977,
+    "name" : "[6+] Portgas D. Ace, The Sun that will Destroy the Darkness",
+    "unit_id" : 1816
+  }, {
+    "g_captain" : 1820.5555801921719,
+    "g_sailor" : 1451.898435643223,
+    "global" : true,
+    "j_captain" : 1767.4994198704344,
+    "j_sailor" : 1509.4970702697422,
+    "name" : "[6*] Vinsmoke Judge, Germa 66 Science Combat Force",
+    "unit_id" : 1832
+  }, {
+    "g_captain" : 1026.0912409457317,
+    "g_sailor" : 1087.832543378427,
+    "global" : true,
+    "j_captain" : 907.0505603395098,
+    "j_sailor" : 1096.9144490806088,
+    "name" : "[6+] Sengoku the Buddha, Marine Fleet Admiral",
+    "unit_id" : 1847
+  }, {
+    "g_captain" : 1724.967712502669,
+    "g_sailor" : 1256.0857580058876,
+    "global" : true,
+    "j_captain" : 1691.9695197663714,
+    "j_sailor" : 1173.1954946996423,
+    "name" : "[6*] Issho, Next Generation Navy HQ Greatest Military Power",
+    "unit_id" : 1869
+  }, {
+    "g_captain" : 1628.1520483962927,
+    "g_sailor" : 1452.716383593269,
+    "global" : true,
+    "j_captain" : 1620.5560897165537,
+    "j_sailor" : 1409.4505633094475,
+    "name" : "[6+] Hody Jones, False Crusader Rampaging Recklessly",
+    "unit_id" : 1880
+  }, {
+    "g_captain" : 1562.9317107696486,
+    "g_sailor" : 1667.925079431836,
+    "global" : true,
+    "j_captain" : 1577.8665122640705,
+    "j_sailor" : 1634.609966657755,
+    "name" : "[6+] Hawk Eyes Mihawk, The Black Blade [Yoru]",
+    "unit_id" : 1881
+  }, {
+    "g_captain" : 1783.9314376982927,
+    "g_sailor" : 1851.3799116715745,
+    "global" : true,
+    "j_captain" : 1795.3191537395119,
+    "j_sailor" : 1706.665955173704,
+    "name" : "[6*] Dark King Rayleigh, An Old Soldier Watching Over an Era",
+    "unit_id" : 1883
+  }, {
+    "g_captain" : 1909.6047359541376,
+    "g_sailor" : 1712.0609682928696,
+    "global" : true,
+    "j_captain" : 1862.1211509100808,
+    "j_sailor" : 1727.0334381200198,
+    "name" : "[6*] Heavenly Demon Doflamingo, Ruler of the Bird Cage",
+    "unit_id" : 1910
+  }, {
+    "g_captain" : 1555.3828559974395,
+    "g_sailor" : 1450.2108533671299,
+    "global" : true,
+    "j_captain" : 1500.7203914904753,
+    "j_sailor" : 1402.3860388349447,
+    "name" : "[6+] Pirate Hunter Zoro, The Strawhat Pirates Reborn",
+    "unit_id" : 1921
+  }, {
+    "g_captain" : 1732.1177872520282,
+    "g_sailor" : 1646.477177246036,
+    "global" : true,
+    "j_captain" : 1638.7270741468699,
+    "j_sailor" : 1566.2566788395836,
+    "name" : "[6+] Trafalgar Law, The Clan of D",
+    "unit_id" : 1922
+  }, {
+    "g_captain" : 1667.8076434496,
+    "g_sailor" : 1636.0857941241043,
+    "global" : true,
+    "j_captain" : 1547.5439311462576,
+    "j_sailor" : 1538.909485449168,
+    "name" : "[6+] Sir Crocodile, Remains of an Utopian Dream",
+    "unit_id" : 1927
+  }, {
+    "g_captain" : 1590.173418854255,
+    "g_sailor" : 1480.9647334269926,
+    "global" : true,
+    "j_captain" : 1489.70602691129,
+    "j_sailor" : 1508.3484996975446,
+    "name" : "[6+] Bartolomeo the Cannibal, Straw Hat Grand Fleet - Son's Cup",
+    "unit_id" : 1928
+  }, {
+    "g_captain" : 1638.1391478599064,
+    "g_sailor" : 1549.4710663685426,
+    "global" : true,
+    "j_captain" : 1730.3585977707412,
+    "j_sailor" : 1610.4788377179207,
+    "name" : "[6*] Franky, Future Country's Super Weapon",
+    "unit_id" : 1935
+  }, {
+    "g_captain" : 1764.470199070108,
+    "g_sailor" : 1571.8724608720754,
+    "global" : true,
+    "j_captain" : 1857.2504960006042,
+    "j_sailor" : 1662.1846952739834,
+    "name" : "[6*] Nico Robin, Archaeologist Revealing the Void Century",
+    "unit_id" : 1951
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1912.156343201506,
+    "j_sailor" : 1589.527035717995,
+    "name" : "[6*] Luffy & Ace, Pirates Rising",
+    "unit_id" : 1985
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1501.3189320637498,
+    "j_sailor" : 1487.1991592078923,
+    "name" : "[6+] Trafalgar Law, Ex-Warlord of the Sea",
+    "unit_id" : 2001
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1894.0282462532641,
+    "j_sailor" : 1749.08069455804,
+    "name" : "[6*] Red Hair Shanks, Yonko Changing the Fate of the World",
+    "unit_id" : 2007
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1821.9257631092257,
+    "j_sailor" : 1709.3416990676744,
+    "name" : "[6*] Sakazuki, Decisive Deadly Battle",
+    "unit_id" : 2023
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1882.8025589584772,
+    "j_sailor" : 1650.195569959726,
+    "name" : "[6*] Kuzan, Decisive Deadly Battle",
+    "unit_id" : 2025
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1274.4367131004233,
+    "j_sailor" : 1460.160070956099,
+    "name" : "[6+] Borsalino, Navy HQ Greatest Military Power",
+    "unit_id" : 2034
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1062.9297421666165,
+    "j_sailor" : 1152.829974032828,
+    "name" : "[6+] The Star Clown Buggy",
+    "unit_id" : 2035
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1442.7857302635573,
+    "j_sailor" : 1422.514988330888,
+    "name" : "[6+] Knight of the Sea Jinbe, Strawhat Luffy's Accomplice",
+    "unit_id" : 2066
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1906.604849782549,
+    "j_sailor" : 1636.6054774516788,
+    "name" : "[6*] Strawhat Luffy, The Potential Power of the Gomu Gomu no Mi",
+    "unit_id" : 2074
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1687.7990670541003,
+    "j_sailor" : 1736.9948639308323,
+    "name" : "[6*] Nami, the Cat Burglar Deceiving the World",
+    "unit_id" : 2076
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1633.05549518129,
+    "j_sailor" : 1696.5470008772352,
+    "name" : "[6*] Golden Tesoro",
+    "unit_id" : 2099
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1399.6837088904988,
+    "j_sailor" : 1476.411833479836,
+    "name" : "[6*] Charlotte Katakuri, Big Mom Pirates 3 Sweet Commanders",
+    "unit_id" : 2113
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1808.1415771497618,
+    "j_sailor" : 1579.3500263483188,
+    "name" : "[6+] Garuda Vinsmoke Judge, Germa 66 Science Military Force",
+    "unit_id" : 2138
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1843.6039882008422,
+    "j_sailor" : 1599.536897976606,
+    "name" : "[6*] Vinsmoke Sanji, Germa Kingdom's Savior",
+    "unit_id" : 2148
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400,
+    "global" : false,
+    "j_captain" : 1509.6051921591722,
+    "j_sailor" : 1667.9762624789557,
+    "name" : "[6+] Magellan, Hell's Judgement",
+    "unit_id" : 2159
+  } ]
+}

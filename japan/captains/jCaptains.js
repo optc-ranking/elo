@@ -19,6 +19,17 @@ var rankImage = document.getElementById("rankImage");
 var wrapper = [];
 var wrapLink = [];
 
+// Only allows 5 skips per login
+var skipCounter = 5;
+
+firebase.auth().onAuthStateChanged(function(user) {
+	if (user) {
+		firebase.auth().signOut();
+	}
+	firebase.auth().signInAnonymously().catch(function(error) {
+	});
+});
+
 var database = firebase.database();
 var ref = database.ref("units");
 ref.orderByChild("j_captain").once("value", gotData, errData);
@@ -86,6 +97,7 @@ function generatePair(){
 	if (Math.random() < 3.0/max){
 		a = find(j_captains, 1543);
 	}
+	
 	
 	var b = Math.floor(max * Math.random());
 	while (a == b){
@@ -159,43 +171,60 @@ function gotData2(snapshot){
 }
 
 left.onclick = function(){	
-	database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
-	legends.sort(function(a, b){return a.unit_id - b.unit_id});
-	
-	var winner = find(legends, a_id);
-	var loser = find(legends, b_id);
 
-	var adj = match(2,legends[winner],legends[loser], false);
+	firebase.auth().onAuthStateChanged(function(user) {
+		if (user) {
+			database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
+			legends.sort(function(a, b){return a.unit_id - b.unit_id});
+			
+			var winner = find(legends, a_id);
+			var loser = find(legends, b_id);
+			
+			var adj = match(2,legends[winner],legends[loser], false);
+			
+			var updates = {};
+			updates[winner + "/j_captain"] = legends[winner].j_captain + adj;
+			updates[loser + "/j_captain"] = legends[loser].j_captain - adj;
+			
+			
+			ref.update(updates);
 	
-	var updates = {};
-	updates[winner + "/j_captain"] = legends[winner].j_captain + adj;
-	updates[loser + "/j_captain"] = legends[loser].j_captain - adj;
-	
-	
-	ref.update(updates);
-	
+		} else {
+			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
+		}
+	});
 	window.location.reload(true);
 }
 
 right.onclick = function(){
-	database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
-	legends.sort(function(a, b){return a.unit_id - b.unit_id});
-	
-	var winner = find(legends, b_id);
-	var loser = find(legends, a_id);
+	firebase.auth().onAuthStateChanged(function(user) {
+		if (user) {
+			database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
+			legends.sort(function(a, b){return a.unit_id - b.unit_id});
+			
+			var winner = find(legends, b_id);
+			var loser = find(legends, a_id);
 
-	var adj = match(2,legends[winner],legends[loser], false);
+			var adj = match(2,legends[winner],legends[loser], false);
+			
+			var updates = {};
+			updates[winner + "/j_captain"] = legends[winner].j_captain + adj;
+			updates[loser + "/j_captain"] = legends[loser].j_captain - adj;
+			
+			ref.update(updates);
+		} else {
+			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
+		}
+	});
 	
-	var updates = {};
-	updates[winner + "/j_captain"] = legends[winner].j_captain + adj;
-	updates[loser + "/j_captain"] = legends[loser].j_captain - adj;
-	
-	
-	ref.update(updates);
 	
 	window.location.reload(true);
 }
 
 skip.onclick = function(){
+	skipCounter--;
+	if(skipCounter <= 0) {
+		window.location.reload(true);
+	}
 	generatePair();
 }
