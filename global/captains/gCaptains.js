@@ -24,10 +24,15 @@ var skipCounter = 5;
 
 firebase.auth().onAuthStateChanged(function(user) {
 	if (user) {
-		firebase.auth().signOut();
+		if (user.isAnonymous()) {
+			firebase.auth().signOut();
+			firebase.auth().signInAnonymously().catch(function(error) {
+			});
+		}
+	} else {
+		firebase.auth().signInAnonymously().catch(function(error) {
+		});
 	}
-	firebase.auth().signInAnonymously().catch(function(error) {
-	});
 });
 
 
