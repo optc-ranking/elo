@@ -22,6 +22,8 @@ var wrapLink = [];
 // Only allows 5 skips per login
 var skipCounter = 5;
 
+
+/**
 var authStop = firebase.auth().onAuthStateChanged(function(user) {
 	if (user) {
 		if (user.isAnonymous()) {
@@ -35,6 +37,11 @@ var authStop = firebase.auth().onAuthStateChanged(function(user) {
 	}
 });
 authStop();
+**/
+
+firebase.auth().signOut();
+firebase.auth().signInAnonymously().catch(function(error) {
+});
 
 var database = firebase.database();
 var ref = database.ref("units");
