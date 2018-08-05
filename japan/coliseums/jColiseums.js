@@ -19,6 +19,8 @@ var rankImage = document.getElementById("rankImage");
 var wrapper = [];
 var wrapLink = [];
 
+// Only allows 3 skips per login
+var skipCounter = 3;
 
 /**
 var authStop = firebase.auth().onAuthStateChanged(function(user) {
@@ -105,10 +107,10 @@ function generatePair(){
 	// Increases the rate of newly added units - will need to be manually adjusted for Global
 	var r = Math.random();
 	if (r < 4.0/max){
-		a = find(g_coliseums, 1628);
+		a = find(j_coliseums, 1628);
 	}
 	else if (r < 9.0/max){
-		a = find(g_coliseums, 1401);
+		a = find(j_coliseums, 1401);
 	}
 	
 	var b = Math.floor(max * Math.random());
@@ -236,17 +238,13 @@ right.onclick = function(){
 }
 
 skip.onclick = function(){
-	firebase.auth().signOut();
-	firebase.auth().signInAnonymously().catch(function(error) {
-		});
 	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
 			generatePair();
-			authS();
 		} else {
 			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
-			authS();
-			window.location.reload(true);
 		}
 	});
+	authS();
+	window.location.reload(true);
 }
