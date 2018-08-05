@@ -235,7 +235,16 @@ right.onclick = function(){
 
 skip.onclick = function(){
 	firebase.auth().signOut();
-firebase.auth().signInAnonymously().catch(function(error) {
-});
-	generatePair();
+	firebase.auth().signInAnonymously().catch(function(error) {
+		});
+	var authS = firebase.auth().onAuthStateChanged(function(user) {
+		if (user) {
+			generatePair();
+			authS();
+		} else {
+			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
+			authS();
+			window.location.reload(true);
+		}
+	});
 }
