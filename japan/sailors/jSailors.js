@@ -246,9 +246,8 @@ right.onclick = function(){
 }
 
 skip.onclick = function(){
-	skipCounter--;
-	if(skipCounter <= 0) {
-		window.location.reload(true);
-	}
+	firebase.auth().signOut();
+firebase.auth().signInAnonymously().catch(function(error) {
+});
 	generatePair();
 }

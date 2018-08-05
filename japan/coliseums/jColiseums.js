@@ -19,8 +19,6 @@ var rankImage = document.getElementById("rankImage");
 var wrapper = [];
 var wrapLink = [];
 
-// Only allows 3 skips per login
-var skipCounter = 3;
 
 /**
 var authStop = firebase.auth().onAuthStateChanged(function(user) {
@@ -238,9 +236,8 @@ right.onclick = function(){
 }
 
 skip.onclick = function(){
-	skipCounter--;
-	if(skipCounter <= 0) {
-		window.location.reload(true);
-	}
+	firebase.auth().signOut();
+	firebase.auth().signInAnonymously().catch(function(error) {
+		});
 	generatePair();
 }
