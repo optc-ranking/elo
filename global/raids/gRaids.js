@@ -190,7 +190,7 @@ left.onclick = function(){
 			var winner = find(raids, a_id);
 			var loser = find(raids, b_id);
 			
-			var adj = match(4,raids[winner],raids[loser], false);
+			var adj = match(4,raids[winner],raids[loser], true);
 			
 			var updates = {};
 			updates[winner + "/g_elo"] = raids[winner].g_elo + adj;
@@ -217,7 +217,7 @@ right.onclick = function(){
 			var winner = find(raids, b_id);
 			var loser = find(raids, a_id);
 
-			var adj = match(4,raids[winner],raids[loser], false);
+			var adj = match(4,raids[winner],raids[loser], true);
 			
 			var updates = {};
 			updates[winner + "/g_elo"] = raids[winner].g_elo + adj;

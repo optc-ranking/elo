@@ -190,7 +190,7 @@ left.onclick = function(){
 			var winner = find(coliseums, a_id);
 			var loser = find(coliseums, b_id);
 			
-			var adj = match(4,coliseums[winner],coliseums[loser], false);
+			var adj = match(4,coliseums[winner],coliseums[loser], true);
 			
 			var updates = {};
 			updates[winner + "/g_elo"] = coliseums[winner].g_elo + adj;
@@ -217,7 +217,7 @@ right.onclick = function(){
 			var winner = find(coliseums, b_id);
 			var loser = find(coliseums, a_id);
 
-			var adj = match(4,coliseums[winner],coliseums[loser], false);
+			var adj = match(4,coliseums[winner],coliseums[loser], true);
 			
 			var updates = {};
 			updates[winner + "/g_elo"] = coliseums[winner].g_elo + adj;

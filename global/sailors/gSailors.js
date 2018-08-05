@@ -193,7 +193,7 @@ left.onclick = function(){
 			var winner = find(legends, a_id);
 			var loser = find(legends, b_id);
 			
-			var adj = match(1,legends[winner],legends[loser], false);
+			var adj = match(1,legends[winner],legends[loser], true);
 			
 			var updates = {};
 			updates[winner + "/g_sailor"] = legends[winner].g_sailor + adj;
@@ -220,7 +220,7 @@ right.onclick = function(){
 			var winner = find(legends, b_id);
 			var loser = find(legends, a_id);
 
-			var adj = match(1,legends[winner],legends[loser], false);
+			var adj = match(1,legends[winner],legends[loser], true);
 			
 			var updates = {};
 			updates[winner + "/g_sailor"] = legends[winner].g_sailor + adj;
