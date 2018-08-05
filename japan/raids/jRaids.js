@@ -236,7 +236,6 @@ right.onclick = function(){
 skip.onclick = function(){
 	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
-			generatePair();
 		} else {
 			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
 		}
