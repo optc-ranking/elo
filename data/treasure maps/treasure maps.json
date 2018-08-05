@@ -1,5 +1,5 @@
 {
-	"raids": [{
+	"treasure maps": [{
 			"unit_id": 1808,
 			"name": "Hawk Eyes Mihawk, The Strongest Swordsman Standing on Top of the World",
 			"global": true,
@@ -42,7 +42,7 @@
 		{
 			"unit_id": 1972,
 			"name": "Sabo, Sweet Dignity",
-			"global": false,
+			"global": true,
 			"japan": true,
 			"g_elo": 1400.0,
 			"j_elo": 1400.0
@@ -74,6 +74,14 @@
 		{
 			"unit_id": 2137,
 			"name": "Sir Crocodile, The Pirate that Controls Drought",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},
+		{
+			"unit_id": 2175,
+			"name": "Jack the Drought",
 			"global": false,
 			"japan": true,
 			"g_elo": 1400.0,

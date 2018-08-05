@@ -1,6 +1,6 @@
 function match(type, winner, loser, mult){
 	var ea;
-	var k = 10;
+	var k = 20;
 	
 	if (mult){
 		k = 20;
@@ -19,8 +19,16 @@ function match(type, winner, loser, mult){
 		ea = 1.0 / (1.0 + Math.pow(10.0, (loser.j_captain - winner.j_captain) / 400.0));
 	}
 	//Japan sub
-	else {
+	else if (type == 3) {
 		ea = 1.0 / (1.0 + Math.pow(10.0, (loser.j_sailor - winner.j_sailor) / 400.0));
+	}
+	//Global other
+	else if (type == 4) {
+		ea = 1.0 / (1.0 + Math.pow(10.0, (loser.g_elo - winner.g_elo) / 400.0));
+	}
+	//Japan other
+	else if (type == 5) {
+		ea = 1.0 / (1.0 + Math.pow(10.0, (loser.j_elo - winner.j_elo) / 400.0));
 	}
 	
 	return k * (1.0 - ea);

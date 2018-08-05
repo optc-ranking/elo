@@ -1,5 +1,5 @@
-var legends;
-var j_sailors;
+var coliseums;
+var j_coliseums;
 var a_id;
 var b_id;
 var max;
@@ -22,7 +22,6 @@ var wrapLink = [];
 // Only allows 3 skips per login
 var skipCounter = 3;
 
-
 /**
 var authStop = firebase.auth().onAuthStateChanged(function(user) {
 	if (user) {
@@ -38,34 +37,26 @@ var authStop = firebase.auth().onAuthStateChanged(function(user) {
 });
 authStop();
 **/
-/**
-var currentUser = firebase.auth().currentUser;
-if (currentUser != null) {
-	if (currentUser.isAnonymous) {
-		currentUser.delete();
-	} else {
-		firebase.auth().signOut();
-	}
-}
-**/
+
 firebase.auth().signOut();
 firebase.auth().signInAnonymously().catch(function(error) {
 });
 
+
 var database = firebase.database();
-var ref = database.ref("legends");
-ref.orderByChild("j_sailor").once("value", gotData, errData);
+var ref = database.ref("coliseums");
+ref.orderByChild("j_elo").once("value", gotData, errData);
 
 function gotData(snapshot){
 	gotData2(snapshot);
 	
-	j_sailors = filter(legends);
-	max = j_sailors.length;
+	j_coliseums = filter(coliseums);
+	max = j_coliseums.length;
 	
 	generatePair();
 		
 	for(x = max - 1; x >= 0; x--){
-		var temp = j_sailors[x];rankImg[x] = new Image();
+		var temp = j_coliseums[x];rankImg[x] = new Image();
 		rankImg[x].src = Utils.getThumbnailUrlNew(temp.unit_id);
 		
 		wrapper[x] = document.createElement("div");
@@ -76,7 +67,7 @@ function gotData(snapshot){
 	}		
 		
 	for(x = max - 1; x >= 0; x--){
-		var temp = j_sailors[x];
+		var temp = j_coliseums[x];
 		
 		
 		var btn1 = document.createElement("a");
@@ -88,9 +79,6 @@ function gotData(snapshot){
 		wrapper[x].appendChild(btn1);
 		
 		
-		
-		
-		
 		var btn2 = document.createElement("a");
 		var place = max - x;
 		btn2.className = "animated zoomIn r2button";
@@ -100,9 +88,10 @@ function gotData(snapshot){
 		btn2.addEventListener("click", function(){window.open(this.id)}, false);
 		wrapper[x].appendChild(btn2);
 		
+		
 		var btn3 = document.createElement("a");
 		btn3.className = "animated zoomIn r3button";
-		btn3.innerHTML = Math.round(10 * temp.j_sailor) / 10;
+		btn3.innerHTML = Math.round(10 * temp.j_elo) / 10;
 		btn2.id = wrapper[x].id;
 		btn2.addEventListener("click", function(){window.open(this.id)}, false);
 		wrapper[x].appendChild(btn3);
@@ -117,7 +106,7 @@ function generatePair(){
 	
 	// Increases the rate of newly added units - will need to be manually adjusted for Global
 	//if (Math.random() < 3.0/max){
-	//	a = find(j_sailors, 1543);
+	//	a = find(j_coliseums, 1543);
 	//}
 	
 	var b = Math.floor(max * Math.random());
@@ -125,8 +114,8 @@ function generatePair(){
 		b = Math.floor(max * Math.random());
 	};
 	
-	a_id = j_sailors[a].unit_id;
-	b_id = j_sailors[b].unit_id;
+	a_id = j_coliseums[a].unit_id;
+	b_id = j_coliseums[b].unit_id;
 	
 	lImg.src = Utils.getThumbnailUrlNew(a_id);
 	lImg.onerror = function(){this.src = "https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png";};
@@ -153,8 +142,8 @@ function generatePair(){
 	};
 
 	
-	left.innerHTML = "Vote" + "<br />" + j_sailors[a].name;
-	right.innerHTML = "Vote" + "<br />" + j_sailors[b].name;
+	left.innerHTML = "Vote" + "<br />" + j_coliseums[a].name;
+	right.innerHTML = "Vote" + "<br />" + j_coliseums[b].name;
 }
 
 function errData(err){
@@ -185,26 +174,27 @@ function filter(array){
 }
 
 function gotData2(snapshot){
-	legends = [];
+	coliseums = [];
 	snapshot.forEach(function(child) {
-		legends.push(child.val());
+		coliseums.push(child.val());
 	});
 }
 
 left.onclick = function(){	
+
 	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
-			database.ref("legends").orderByChild("unit_id").on("value", gotData2, errData);
-			legends.sort(function(a, b){return a.unit_id - b.unit_id});
+			database.ref("coliseums").orderByChild("unit_id").on("value", gotData2, errData);
+			coliseums.sort(function(a, b){return a.unit_id - b.unit_id});
 			
-			var winner = find(legends, a_id);
-			var loser = find(legends, b_id);
+			var winner = find(coliseums, a_id);
+			var loser = find(coliseums, b_id);
 			
-			var adj = match(3,legends[winner],legends[loser], false);
+			var adj = match(5,coliseums[winner],coliseums[loser], false);
 			
 			var updates = {};
-			updates[winner + "/j_sailor"] = legends[winner].j_sailor + adj;
-			updates[loser + "/j_sailor"] = legends[loser].j_sailor - adj;
+			updates[winner + "/j_elo"] = coliseums[winner].j_elo + adj;
+			updates[loser + "/j_elo"] = coliseums[loser].j_elo - adj;
 			
 			
 			ref.update(updates);
@@ -213,7 +203,6 @@ left.onclick = function(){
 			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
 		}
 	});
-	
 	authS();
 	
 	window.location.reload(true);
@@ -222,24 +211,23 @@ left.onclick = function(){
 right.onclick = function(){
 	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
-			database.ref("legends").orderByChild("unit_id").on("value", gotData2, errData);
-			legends.sort(function(a, b){return a.unit_id - b.unit_id});
+			database.ref("coliseums").orderByChild("unit_id").on("value", gotData2, errData);
+			coliseums.sort(function(a, b){return a.unit_id - b.unit_id});
 			
-			var winner = find(legends, b_id);
-			var loser = find(legends, a_id);
+			var winner = find(coliseums, b_id);
+			var loser = find(coliseums, a_id);
 
-			var adj = match(3,legends[winner],legends[loser], false);
+			var adj = match(5,coliseums[winner],coliseums[loser], false);
 			
 			var updates = {};
-			updates[winner + "/j_sailor"] = legends[winner].j_sailor + adj;
-			updates[loser + "/j_sailor"] = legends[loser].j_sailor - adj;
+			updates[winner + "/j_elo"] = coliseums[winner].j_elo + adj;
+			updates[loser + "/j_elo"] = coliseums[loser].j_elo - adj;
 			
 			ref.update(updates);
 		} else {
 			window.alert("To prevent vote manipulation, you have reached your hourly voting limit");
 		}
 	});
-	
 	authS();
 	
 	window.location.reload(true);

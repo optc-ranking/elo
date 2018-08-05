@@ -19,8 +19,8 @@ var rankImage = document.getElementById("rankImage");
 var wrapper = [];
 var wrapLink = [];
 
-// Only allows 5 skips per login
-var skipCounter = 5;
+// Only allows 3 skips per login
+var skipCounter = 3;
 
 /**
 var authStop = firebase.auth().onAuthStateChanged(function(user) {
@@ -44,7 +44,7 @@ firebase.auth().signInAnonymously().catch(function(error) {
 
 
 var database = firebase.database();
-var ref = database.ref("units");
+var ref = database.ref("legends");
 ref.orderByChild("g_captain").once("value", gotData, errData);
 
 function gotData(snapshot){
@@ -105,9 +105,9 @@ function generatePair(){
 	var a = Math.floor(max * Math.random());
 	
 	// Increases the rate of newly added units - will need to be manually adjusted for Global
-	if (Math.random() < 3.0/max){
-		a = find(g_captains, 1543);
-	}
+	//if (Math.random() < 3.0/max){
+	//	a = find(g_captains, 1543);
+	//}
 	
 	var b = Math.floor(max * Math.random());
 	while (a == b){
@@ -184,7 +184,7 @@ left.onclick = function(){
 
 	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
-			database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
+			database.ref("legends").orderByChild("unit_id").on("value", gotData2, errData);
 			legends.sort(function(a, b){return a.unit_id - b.unit_id});
 			
 			var winner = find(legends, a_id);
@@ -211,7 +211,7 @@ left.onclick = function(){
 right.onclick = function(){
 	var authS = firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
-			database.ref("units").orderByChild("unit_id").on("value", gotData2, errData);
+			database.ref("legends").orderByChild("unit_id").on("value", gotData2, errData);
 			legends.sort(function(a, b){return a.unit_id - b.unit_id});
 			
 			var winner = find(legends, b_id);

@@ -332,7 +332,14 @@
 			"g_elo": 1400.0,
 			"j_elo": 1400.0
 		},{
-			"unit_id": 2201,
+			"unit_id": 2197,
+			"name": "Blackbeard, Former Warlord of the Sea",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2501,
 			"name": "[V2] Donquixote Doflamingo, Plot to Destroy the World",
 			"global": true,
 			"japan": false,

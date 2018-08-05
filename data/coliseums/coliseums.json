@@ -534,7 +534,7 @@
 		},{
 			"unit_id": 1976,
 			"name": "[Neo] 'Red Flag' X Drake, Captain of the Drake Pirates",
-			"global": false,
+			"global": true,
 			"japan": true,
 			"g_elo": 1400.0,
 			"j_elo": 1400.0
@@ -576,6 +576,13 @@
 		},{
 			"unit_id": 2163,
 			"name": "Charlotte opera, Big Mom Pirates",
+			"global": false,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 2193,
+			"name": "Bartholomew Kuma, The Human Weapon Defying Justice",
 			"global": false,
 			"japan": true,
 			"g_elo": 1400.0,

@@ -1,0 +1,81 @@
+<html>
+    <head>
+		<title>OPTC Elo Ranking - Global Captains</title>
+        <link rel="stylesheet" type="text/css" href="../../optc-db.github.io/common/libs/css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="../../optc-db.github.io/common/libs/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../optc-db.github.io/index.css" />
+	<!-- 
+        <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	-->
+        <script src="../../optc-db.github.io/common/libs/js/jquery.min.js"></script>
+        <script src="../../optc-db.github.io/common/data/units.js"></script>
+        <script src="../../optc-db.github.io/common/js/utils.js"></script>
+		    
+        <meta name="viewport" content="user-scalable=yes">
+        <meta name="author" content="FateOfMuffins">
+	    
+	<!-- Google Analytics -->
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  		ga('create', 'UA-121800821-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+	
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+	
+	
+		<script>
+		var config = {
+			apiKey: "AIzaSyAt-JZ5X3ajjfBQsRpX0ZjYwQYc2hh3yRk",
+			authDomain: "optc-elo.firebaseapp.com",
+			databaseURL: "https://optc-elo.firebaseio.com",
+			projectId: "optc-elo",
+			storageBucket: "optc-elo.appspot.com",
+			messagingSenderId: "997356356537"
+		};
+
+		firebase.initializeApp(config);
+	    </script>
+		
+		<script src="../../js/elo.js"></script>
+	
+	
+    </head>
+
+    <body>   
+
+		
+
+		<h1 align="middle">Global Raids</h1>
+		
+		<div class="vote">
+			<a class="animated zoomIn v1button" id="leftImage"></a>      
+			<a class="animated zoomIn v2button" id="rightImage"></a>    
+		</div>
+		
+		<div class="vote">
+			<a class="animated zoomInLeft vbutton green" id="left"></a>      
+			<a class="animated zoomInRight vbutton green" id="right"></a>    
+		</div>
+		
+		
+		<div class="vote">
+			<a class="animated zoomIn button yellow" id="skip">Skip</a>
+		</div>
+		
+		<h1 align="middle">Global Raids - Elo Ranking</h1>
+		
+		<div class="vote" id="rankImage">
+		</div>
+				
+		<script src="gRaids.js"></script>
+		
+		
+		
+		
+    </body>
+
+</html>
