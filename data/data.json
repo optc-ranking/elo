@@ -51,7 +51,7 @@
 	"japan" : true,
     "j_captain" : 1400.0,
     "j_sailor" : 1400.0,
-    "name" : "[6*] Portgas D1400.0 Ace, Black Clad Division Commander",
+    "name" : "[6*] Portgas D. Ace, Black Clad Division Commander",
     "unit_id" : 562
   }, {
     "g_captain" : 1400.0,
@@ -60,7 +60,7 @@
 	"japan" : true,
     "j_captain" : 1400.0,
     "j_sailor" : 1400.0,
-    "name" : "[6*] Monkey D1400.0Luffy, Voyage Dream:  Pirate King",
+    "name" : "[6*] Monkey D. Luffy, Voyage Dream:  Pirate King",
     "unit_id" : 578
   }, {
     "g_captain" : 1400.0,
@@ -69,7 +69,7 @@
 	"japan" : true,
     "j_captain" : 1400.0,
     "j_sailor" : 1400.0,
-    "name" : "[6*] Marco the Phoenix Whitebeard st Div1400.0 Commander",
+    "name" : "[6*] Marco the Phoenix Whitebeard 1st Div. Commander",
     "unit_id" : 649
   }, {
     "g_captain" : 1400.0,
@@ -105,7 +105,7 @@
 	"japan" : true,
     "j_captain" : 1400.0,
     "j_sailor" : 1400.0,
-    "name" : "[6*] Rob Lucci, CP's Strongest",
+    "name" : "[6*] Rob Lucci, CP9's Strongest",
     "unit_id" : 748
   }, {
     "g_captain" : 1400.0,
@@ -1027,6 +1027,13 @@
 		},{
 			"unit_id": 1378,
 			"name": "Marguerite, Ambition of the Kuja Pirates",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
+			"unit_id": 1401,
+			"name": "Gladius, Pica Military Executive",
 			"global": true,
 			"japan": true,
 			"g_elo": 1400.0,
