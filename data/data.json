@@ -1013,7 +1013,7 @@
 		},{
 			"unit_id": 1339,
 			"name": "Tony Tony Chopper Jump Point",
-			"global": true,
+			"global": false,
 			"japan": true,
 			"g_elo": 1400.0,
 			"j_elo": 1400.0
@@ -1158,9 +1158,16 @@
 			"g_elo": 1400.0,
 			"j_elo": 1400.0
 		},{
+			"unit_id": 1628,
+			"name": "Machvise, Diamante Military Leader",
+			"global": true,
+			"japan": true,
+			"g_elo": 1400.0,
+			"j_elo": 1400.0
+		},{
 			"unit_id": 1630,
 			"name": "Ikaros Much, The Rebellious Fishman Pirates",
-			"global": true,
+			"global": false,
 			"japan": true,
 			"g_elo": 1400.0,
 			"j_elo": 1400.0

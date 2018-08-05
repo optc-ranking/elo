@@ -105,9 +105,9 @@ function generatePair(){
 	var a = Math.floor(max * Math.random());
 	
 	// Increases the rate of newly added units - will need to be manually adjusted for Global
-	//if (Math.random() < 3.0/max){
-	//	a = find(g_coliseums, 1543);
-	//}
+	if (Math.random() < 5.0/max){
+		a = find(g_coliseums, 1628);
+	}
 	
 	var b = Math.floor(max * Math.random());
 	while (a == b){
