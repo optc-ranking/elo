@@ -102,7 +102,7 @@ function gotData(snapshot){
 		
 		var btn3 = document.createElement("a");
 		btn3.className = "animated zoomIn r3button";
-		btn3.innerHTML = Math.round(10 * temp.j_sailor) / 10;
+		btn3.innerHTML = temp.j_sailor.toFixed(1);
 		btn2.id = wrapper[x].id;
 		btn2.addEventListener("click", function(){window.open(this.id)}, false);
 		wrapper[x].appendChild(btn3);
