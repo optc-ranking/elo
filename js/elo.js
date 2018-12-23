@@ -1,6 +1,6 @@
 function match(type, winner, loser, mult){
 	var ea;
-	var k = 10;
+	var k = 5;
 	
 	if (mult){
 		k = 20;
