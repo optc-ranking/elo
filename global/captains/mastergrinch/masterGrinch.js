@@ -108,10 +108,10 @@ function generatePair(){
 	if (ran < 0.2){
 		a = find(g_captains, 2148);
 	}
-	else if (ran < 0.3){
-		a = find(g_captains, 2113);
-	}
 	else if (ran < 0.4){
+		a = find(g_captains, 1883);
+	}
+	else if (ran < 0.6){
 		a = find(g_captains, 2076);
 	}
 	else if (ran < 0.6){
@@ -119,9 +119,6 @@ function generatePair(){
 	}
 	else if (ran < 0.7){
 		a = find(g_captains, 2505);
-	}
-	else if (ran < 0.8){
-		a = find(g_captains, 1910);
 	}
 	else if (ran < 0.9){
 		a = find(g_captains, 1794);
