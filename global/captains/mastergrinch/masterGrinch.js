@@ -102,12 +102,39 @@ function gotData(snapshot){
 }
 
 function generatePair(){
-	var a = Math.floor(max * Math.random());
-	
+	var a = Math.floor(Math.random());
+	var ran = Math.random();
 	// Increases the rate of newly added units - will need to be manually adjusted for Global
-	//if (Math.random() < 3.0/max){
-	//	a = find(g_captains, 1543);
-	//}
+	if (ran < 0.1){
+		a = find(g_captains, 2148);
+	}
+	else if (ran < 0.2){
+		a = find(g_captains, 2113);
+	}
+	else if (ran < 0.3){
+		a = find(g_captains, 2076);
+	}
+	else if (ran < 0.4){
+		a = find(g_captains, 2074);
+	}
+	else if (ran < 0.5){
+		a = find(g_captains, 2025);
+	}
+	else if (ran < 0.6){
+		a = find(g_captains, 2023);
+	}
+	else if (ran < 0.7){
+		a = find(g_captains, 2007);
+	}
+	else if (ran < 0.8){
+		a = find(g_captains, 1910);
+	}
+	else if (ran < 0.9){
+		a = find(g_captains, 1794);
+	}
+	else {
+		a = find(g_captains, 1763);
+	}
 	
 	var b = Math.floor(max * Math.random());
 	while (a == b){
