@@ -105,26 +105,17 @@ function generatePair(){
 	var a = Math.floor(Math.random());
 	var ran = Math.random();
 	// Increases the rate of newly added units - will need to be manually adjusted for Global
-	if (ran < 0.2){
+	if (ran < 0.1){
 		a = find(g_captains, 2148);
 	}
-	else if (ran < 0.4){
+	else if (ran < 0.25){
 		a = find(g_captains, 1883);
 	}
-	else if (ran < 0.5){
-		a = find(g_captains, 2076);
-	}
-	else if (ran < 0.8){
+	else if (ran < 0.75){
 		a = find(g_captains, 2074);
 	}
-	else if (ran < 0.85){
-		a = find(g_captains, 2505);
-	}
-	else if (ran < 0.95){
-		a = find(g_captains, 1794);
-	}
 	else {
-		a = find(g_captains, 1763);
+		a = find(g_captains, 1794);
 	}
 	
 	var b = Math.floor(max * Math.random());
