@@ -112,7 +112,7 @@ function generatePair(){
 		a = find(g_captains, 2025);
 	}
 	else if (ran < 0.51){
-		a = find(g_captains, 1832);
+		a = find(g_captains, 1763);
 	}	
 	else if (ran < 0.68){
 		a = find(g_captains, 2113);
@@ -121,7 +121,7 @@ function generatePair(){
 		a = find(g_captains, 2074);
 	}
 	else {
-		a = find(g_captains, 1985);
+		a = find(g_captains, 2505);
 	}
 	
 	var b = Math.floor(max * Math.random());
