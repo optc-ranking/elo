@@ -1,9 +1,9 @@
 function match(type, winner, loser, mult){
 	var ea;
-	var k = 5;
+	var k = 10;
 	
 	if (mult){
-		k = 10;
+		k = 20;
 	}
 	
 	//Global captain
