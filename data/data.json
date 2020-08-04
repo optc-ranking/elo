@@ -695,12 +695,687 @@
   }, {
     "g_captain" : 1400.0,
     "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Corazon, Sympathy for Law",
+    "unit_id" : 2195
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Shiki, The Legendary Pirate",
+    "unit_id" : 2201
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Kami Enel, Return to 'Fairy Vearth'",
+    "unit_id" : 2232
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Big Mom, Four Emperors",
+    "unit_id" : 2234
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] 'Soul King' Brook, The Soul's Special Live",
+    "unit_id" : 2236
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Sanji, Vinsmoke Family's Illegitimate Child",
+    "unit_id" : 2245
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Garp the Fist, Pirate King's Arch-Nemesis",
+    "unit_id" : 2251
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Knight of the Sea Jinbe, Sun Pirates Captain",
+    "unit_id" : 2265
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Franky, The Modified Man Living his Manly Dream",
+    "unit_id" : 2300
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Capone 'Gang' Bege, 'Yonko Assassination Plan' Allied Forces",
+    "unit_id" : 2302
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] 'Black Arm' Zephyr, The Man who Trained Every Marine",
+    "unit_id" : 2330
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Carrot, A Mystical White Sulong",
+    "unit_id" : 2338
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Cavendish, Kamaitachi of Rommel",
+    "unit_id" : 2357
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Monkey D. Luffy, Gear 4 - Snakeman",
+    "unit_id" : 2363
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Charlotte Katakuri, A Real Man's Fight",
+    "unit_id" : 2365
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Inuarashi, Ceremonial Banquet",
+    "unit_id" : 2372
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Nekomamushi, Ceremonial Banquet",
+    "unit_id" : 2373
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Bartolomeo & Cavendish, The Noble Prince & Cannibal Fighting Together",
+    "unit_id" : 2418
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Jack, Eleph-Eleph Fruit: Ancient Model User",
+    "unit_id" : 2433
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Boa Hancock, Strawhat Luffy's Supporter",
+    "unit_id" : 2434
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Sabo, Strawhat Luffy's Ally",
+    "unit_id" : 2441
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Donquixote Doflamingo, God's Sanction",
+    "unit_id" : 2444
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Sanji & Judge, The Parting between Father and Son",
+    "unit_id" : 2446
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Charlotte Cracker, Thousand Arms' Fierce Attack",
+    "unit_id" : 2465
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Dracule Mihawk, Teaching the Secret Techniques of a Great Swordsman",
+    "unit_id" : 2475
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Roronoa Zoro, A Momentary Glimpse of a Great Swordsman",
+    "unit_id" : 2477
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Big Mom, Emperor Suffering from Hunger Pangs",
+    "unit_id" : 2500
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Fujitora, The Dogeza that Shook the World",
+    "unit_id" : 2505
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Luffy & Law, Miracle-Making Generation",
+    "unit_id" : 2534
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Zeus & Prometheus & Big Mom, Ruler of the Soul Kingdom",
+    "unit_id" : 2536
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Sabo & Koala, The Young Aces of the Revolutionary Army",
+    "unit_id" : 2561
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Inuarashi & Nekomamushi, Antagonistic Kings of Day and Night",
+    "unit_id" : 2577
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Fleet Admiral Sakazuki, Enforcer of Absolute Justice",
+    "unit_id" : 2578
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Nami, Cat Burglar Deceiving the 'New World'",
+    "unit_id" : 2588
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Vivi & Rebecca, Shared Benefactor",
+    "unit_id" : 2601
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Shirahoshi & Mansherry, A Wonderful Encounter",
+    "unit_id" : 2603
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Shirahoshi, Promised Reunion",
+    "unit_id" : 2631
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Douglas Bullet, Demon's Heir",
+    "unit_id" : 2181
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Monkey D. Luffy, Overcoming the 'Strongest' with his Friends",
+    "unit_id" : 2672
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Douglas Bullet, The Monster that Lost its Purpose",
+    "unit_id" : 2681
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Whitebeard, Voiceless Rage",
+    "unit_id" : 2686
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Kaido, The Strongest Creature",
+    "unit_id" : 2700
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Katakuri, 3 Sweet Commanders: The Strongest Man",
+    "unit_id" : 2739
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Ace, Trickster Flame Wolf: Happy Halloween",
+    "unit_id" : 2741
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] O-Nami, Novice Kunoichi",
+    "unit_id" : 2774
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Oiran Komurasaki",
+    "unit_id" : 2776
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Lucci, Beastman - Absolute Prevention of Evil",
+    "unit_id" : 2784
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Tony Tony Chopper, Looking Forward to the Presents",
+    "unit_id" : 2797
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Luffytaro & Zorojuro, Wano Country's Saviors",
+    "unit_id" : 2802
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] O-Soba Mask",
+    "unit_id" : 2804
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Revolutionary Army Chief of Staff Sabo, 'Mera Mera no Mi': The Real Identity of Lucy",
+    "unit_id" : 2814
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Nico Robin, Umbrella Blocking Iron Stars",
+    "unit_id" : 2830
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Nami & Robin, Red Tulips Relaxation",
+    "unit_id" : 2835
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Charlotte Pudding, Love's Farwell",
+    "unit_id" : 2837
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Arlong's Crew, Pirates of the Supreme Species",
+    "unit_id" : 2860
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Red Hair Pirates, Pirates Fighting for the Sake of their Friend",
+    "unit_id" : 2862
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Marco the Phoenix, Illusion Flame Beast",
+    "unit_id" : 2868
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Mihawk & Perona, Powerful Residents of Former Muggy Kingdom",
+    "unit_id" : 2895
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Dark King Rayleigh, Teaching a New Era",
+    "unit_id" : 2897
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Whitebeard, End of the Long Journey",
+    "unit_id" : 2909
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Kuzan, Unfaithful Beliefs of Justice",
+    "unit_id" : 2930
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Fujitora, Surefire Gravity",
+    "unit_id" : 2954
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Monkey D. Luffy,The Great Snake Surpassing the Future",
+    "unit_id" : 2958
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Sabo, The Bonds Illuminated by the Flames",
+    "unit_id" : 2960
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Charlotte Katakuri, Haki that Conquers the Future",
+    "unit_id" : 2962
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Blackbeard, Emperor",
+    "unit_id" : 2964
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Eustass Kid, Magnetic Captain Challenging the Dragon",
+    "unit_id" : 2980
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Magician Basil Hawkins, Follower of the Dragon",
+    "unit_id" : 2982
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Garp the Fist, Grandfather of the Future Pirate King",
+    "unit_id" : 2991
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] White Chase Smoker, Marine Who Carries Out His Own Justice",
+    "unit_id" : 3007
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Sugar, Queen of the Toys",
+    "unit_id" : 3009
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Dark King Rayleigh, An Old Soldier Watching Over the Next Generation",
+    "unit_id" : 3018
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Trafalgar Law, Alliance to Liberate the Land of Wano",
+    "unit_id" : 3027
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6*] Boa Hancock, Vacation on the Evening Beach",
+    "unit_id" : 3038
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
+    "global" : false, 
+	"japan" : true,
+    "j_captain" : 1400.0,
+    "j_sailor" : 1400.0,
+    "name" : "[6+] Knight of the Sea Jinbe, Pledge",
+    "unit_id" : 3048
+  }, {
+    "g_captain" : 1400.0,
+    "g_sailor" : 1400.0,
     "global" : true, 
 	"japan" : false,
     "j_captain" : 1400.0,
     "j_sailor" : 1400.0,
     "name" : "[6*] Monkey D. Luffy, To Become a True Kung Fu Master",
-    "unit_id" : 2503
+    "unit_id" : 3334
   } ],
   "coliseums": [{
 			"unit_id": 779,
